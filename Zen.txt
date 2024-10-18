@@ -47,6 +47,7 @@ Zen of Python!
 45.
 46.
 47.Errors should never pass silently.
+48.Unless explicitly silenced.
 
 
 
