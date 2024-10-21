@@ -24,7 +24,7 @@ Zen of Python!
 22.
 23.
 24.Flat is better than nested.
-25.Sparse is better er than dense.
+25.Sparse is better than dense.
 26.
 27.
 28.
