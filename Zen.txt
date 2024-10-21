@@ -29,7 +29,7 @@ Zen of Python!
 27.
 28.
 29.
-30.
+30.Unless explicitly silenced.
 31.
 32.There should be one-- and preferably only one --obvious way to do it.
 33.Although that way may not be obvious at first unless you're Dutch.
