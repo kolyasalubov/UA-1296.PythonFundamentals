@@ -40,7 +40,7 @@ Zen of Python!
 38.Namespaces are one honking great idea -- let's do more of those!Beautiful is better than ugly.
 39.
 40.Simple is better than complex.
-41.
+41.Complex is better than complicated.
 42.
 43.
 44.
