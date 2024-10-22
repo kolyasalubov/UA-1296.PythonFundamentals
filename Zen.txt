@@ -17,10 +17,10 @@ Zen of Python!
 15.Now is better than never.
 16.
 17.If the implementation is hard to explain, it's a bad idea.
-18.
+18.If the implementation is easy to explain, it may be a good idea
 19.
 20.
-21.Explicit is better than implicit.
+21.Explicit is better than implicit. 
 22.
 23.Complex is better than complicated.
 24.Flat is better than nested.
