@@ -21,7 +21,7 @@ Zen of Python!
 19.
 20.
 21.Explicit is better than implicit.
-22.
+22.Simple is better than complex.
 23.Complex is better than complicated.
 24.Flat is better than nested.
 25.Sparse is better than dense.
