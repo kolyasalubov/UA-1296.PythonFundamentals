@@ -43,7 +43,7 @@ Zen of Python!
 41.
 42.
 43.
-44.
+44.Readability counts.
 45.
 46.Special cases aren't special enough to break the rules.
 47.Errors should never pass silently.
