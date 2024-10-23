@@ -20,13 +20,8 @@ Zen of Python!
 18.If the implementation is easy to explain, it may be a good idea
 19.Namespaces are one honking great idea -- let's do more of those!
 20.
-<<<<<<< HEAD
-21.Explicit is better than implicit.
-22.Simple is better than complex.
-=======
 21.Explicit is better than implicit. 
-22.
->>>>>>> 385c17f0f18a34dc791794523f2076db886b9173
+22.Simple is better than complex
 23.Complex is better than complicated.
 24.Flat is better than nested.
 25.Sparse is better than dense.
