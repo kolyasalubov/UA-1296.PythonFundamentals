@@ -1,13 +1,10 @@
-x = int(input("Write 1 number: "))
-y = int(input("Write 2 number: "))
+x = (input("Write 1 number: "))
+y = (input("Write 2 number: "))
 
-x = x + y
-y = x - y
-x = x - y
+x,y = y,x
 
 print(f"""
+x switched to {x}
+y switched to {y}
       
-x number switched to {x}
-y number switched to {y}
-     
 """)
