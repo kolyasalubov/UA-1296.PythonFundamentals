@@ -58,17 +58,11 @@ text = """ 1.Beautiful is better than ugly.
 
 print(f"The number of words 'better' in the text: {text.count("better")}\n"
       f"The number of words 'never' in the text: {text.count("never")}\n"
-      f"The number of words 'is' in the text: {text.count("is")}.")
+      f"The number of words 'is' in the text: {text.count("is")}.\n")
 
 print(text.upper())
 
-a = 9
-b = 5
-a, b = b, a
-print(f"a: {a}\n"
-      f"b: {b}")
-
-
+print(text.replace("i", "&"))
 
 
 
