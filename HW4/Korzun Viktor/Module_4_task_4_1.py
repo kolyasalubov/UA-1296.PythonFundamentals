@@ -1,7 +1,6 @@
+user_number = int(input("Enter the temperature in  Celsius: "))
 
-
-def checker(valid_number):
-    user_number = int(input("Enter the temperature in  Celsius: "))
+def checker(valid_number):    
     if valid_number < -273.15:
         print("Error: Temperature below absolute zero (-273.15)")
     else:
