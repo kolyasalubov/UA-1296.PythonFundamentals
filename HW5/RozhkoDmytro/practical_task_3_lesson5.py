@@ -3,7 +3,7 @@ def get_valid_number(prompt):
         user_input = input(f"Input {prompt}: ")
         try:
             num = int(user_input)
-            if num <= 0:
+            if num < 0:
                 print(f"Number can't be less than 0. Please enter a valid number.")
             else:
                 return num
@@ -13,8 +13,8 @@ def get_valid_number(prompt):
 
 len = get_valid_number("N")
 
-f = 1
+factorial = 1
 for num in range(1, len + 1):
-    f *= num
+    factorial *= num
 
-print(f)
+print(factorial)
