@@ -1,4 +1,6 @@
-zen_of_python = '''
+zen = """
+The Zen of Python, by Tim Peters
+
 Beautiful is better than ugly.
 Explicit is better than implicit.
 Simple is better than complex.
@@ -17,5 +19,19 @@ Now is better than never.
 Although never is often better than *right* now.
 If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
-Namespaces are one honking great idea -- let's do more of those!'''
+Namespaces are one honking great idea -- let's do more of those!
+"""
 
+print(zen)
+
+count_better = zen.count("better")
+count_never = zen.count("never")
+count_is = zen.count("is")
+
+
+print("The word 'better' occurs", count_better, "times in the text")
+print("The word 'never' occurs", count_never, "times in the text")
+print("The word 'is' occurs", count_is, "times in the text")
+
+print(zen.upper())
+print(zen.replace("i", "&"))

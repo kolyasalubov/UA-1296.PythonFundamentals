@@ -15,4 +15,5 @@ print(f"Reversed number of {number} is {reversed_number}")
 sorted_digits = sorted(number_str)
 sorted_string = "".join(sorted_digits)
 sorted_number = int(sorted_string)
+
 print(f"Digits of the number {number} in ascending order:{sorted_number}")
