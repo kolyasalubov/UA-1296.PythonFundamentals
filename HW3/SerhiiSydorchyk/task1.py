@@ -33,4 +33,8 @@ print(upper_text)
 
 replaced_text = zen_of_python.replace ("i","&")
 print("Text after replacing 'i' with '&'")
+<<<<<<< HEAD
 print(replaced_text)
+=======
+print(replaced_text)
+>>>>>>> e79ccca3bfaccf3cb3cb38b9b09a6eeb4d90ad19
