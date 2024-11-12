@@ -45,9 +45,7 @@ match choice:
     case "2":
         area = area_rectangle(get_valid_number("a: "), get_valid_number("b: "))
     case "3":
-        area = area_triangle(
-            get_valid_number("a: "), get_valid_number("b: "), get_valid_number("c: ")
-        )
+        area = area_triangle(get_valid_number("h: "), get_valid_number("a: "))
     case _:
         print("Bad choise!")
 
