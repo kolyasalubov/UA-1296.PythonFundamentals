@@ -26,7 +26,7 @@ Zen of Python!
 24.Flat is better than nested.
 25.Sparse is better than dense.
 26.
-27.
+27.Special cases aren't special enough to break the rules.
 28.
 29.
 30.Unless explicitly silenced.
