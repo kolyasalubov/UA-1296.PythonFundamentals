@@ -22,17 +22,24 @@
 
 ################     2    ###################
 
-game = True
+# game = True
 
-while game:
-    login = 'First'
-    user_login = input("Enter your login: ")
-    if user_login != login:
-        print("Uncorect login, please enter valid login: ")
-    if user_login == login:
-        print("You enter correct login!")
-        game = False
+# while game:
+#     login = 'First'
+#     user_login = input("Enter your login: ")
+#     if user_login != login:
+#         print("Uncorect login, please enter valid login")
+#     if user_login == login:
+#         print("You enter correct login!")
+#         game = False
     
+def get_middle(s):
+    answer = []
+    print(len(s))
+    if len(s) % 2 == 0:
+        answer.append(s[int(len(s) / 2]))
+        answer.append(s[int(len(s) / 2 - 1]))
+    print(answer)
 
 
-
+get_middle('haha')
