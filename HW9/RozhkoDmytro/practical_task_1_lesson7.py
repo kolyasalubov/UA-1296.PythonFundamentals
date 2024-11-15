@@ -34,3 +34,5 @@ while current_try < MAX_TRY:
             print("You win!")
             break
     current_try += 1
+else:
+    print("You lose!")
