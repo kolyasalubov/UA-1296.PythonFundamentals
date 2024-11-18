@@ -10,4 +10,4 @@ def count_characters(string):
 
 input_string = "Serhii"
 result = count_characters(input_string)
-print(result) 
+print(result)
