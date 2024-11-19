@@ -1,6 +1,6 @@
 def rectangle_area(length, width):
     print(f'The area of your rectangle is {length * width} cm²')
-
+    
 def triangle_area(side1, side2, side3):
     if side1 + side2 > side3 and side3 + side2 > side1 and side1 + side3 > side2:
         p = (side1 + side2 + side3) / 2
@@ -8,11 +8,9 @@ def triangle_area(side1, side2, side3):
         print(f'The area of your triangle is {round(area, 2)} cm²')
     else:
         print("Triangle with such sides is impossible")
-
+        
 def circle_area(r):
     print(f'The area of your cirсle is {round((3.14 * r ** 2), 2)} cm²')
-
-
 
 
 while True:

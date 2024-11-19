@@ -1,4 +1,7 @@
 def higher_number(num1, num2):
+    """
+    Return higher number
+    """
     if num1 > num2:
         print(f'The higher number is {num1}')
     elif num1 < num2:
