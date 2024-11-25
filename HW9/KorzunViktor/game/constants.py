@@ -1,0 +1,14 @@
+FPS = 60
+
+WIDTH_DISPLAY = 640
+HEIGHT_DISPLAY = 400
+
+WHITE = (255, 255, 255)    
+BLUE = (0, 0, 255)
+GRAY = (200, 200, 200)
+BLACK = (0, 0, 0)
+GREEN = (0,128,0)
+RED = (255,0,0)
+
+
+
