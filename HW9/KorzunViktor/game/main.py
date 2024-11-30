@@ -4,7 +4,7 @@ import random
 
 
 done = True
-lives = 10
+lives = 7
 
 pygame.init()
 
@@ -76,7 +76,7 @@ while done:
 
         if event.type == pygame.MOUSEBUTTONDOWN:
             if restart_box.collidepoint(event.pos):
-                lives = 10
+                lives = 7
                 user_message = ""
                 game_number = random.randint(1,100)
                       
@@ -95,7 +95,7 @@ while done:
                             elif game_number == user_number:
                                 user_message = "You win"
                             if lives == 0:
-                                done = False
+                                done = True
                         else:
                             user_message = "Number is not beetween 1 - 100"
                         
