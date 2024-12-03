@@ -1,0 +1,1 @@
+choice = int(input("Choose a figure: 1 - rectangle, 2 - triangle, 3 - circle "))
